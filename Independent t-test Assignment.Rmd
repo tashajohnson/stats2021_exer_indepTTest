@@ -47,10 +47,8 @@ The t-test is a type of linear model. We're going to compare the output from the
 The rio package works for importing several different types of data files. We're going to use it in this class. There are other packages which can be used to open datasets in R. You can see several options by clicking on the Import Dataset menu under the Environment tab in RStudio. (For a csv file like we have this week we'd use either From Text(base) or From Text (readr). Try it out to see the menu dialog.)
 
 ```{r}
-# Using the file.choose() command allows you to select a file to import from another folder.
-dataset <- rio::import(file.choose())
-# This command will allow us to import a file included in our project folder.
-# dataset <- rio::import("Album Sales.sav")
+dataset <- rio::import("Invisibility.sav")
+
 ```
 
 ## Get R code from Jamovi output
